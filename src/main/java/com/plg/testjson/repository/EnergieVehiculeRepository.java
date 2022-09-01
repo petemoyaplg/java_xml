@@ -5,9 +5,9 @@ import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.plg.testjson.models.Codification;
+import com.plg.testjson.models.EnergieVehicule;
 
 @Repository
-public interface ProductRepository extends JpaRepository<Codification, String> {
+public interface EnergieVehiculeRepository extends JpaRepository<EnergieVehicule, UUID> {
 
 }
